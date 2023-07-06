@@ -2,3 +2,26 @@ body{
      background-color: #1031871A;
      
 }
+
+th {
+     background-color: #faa006;
+     color: rgb(253, 69, 8);
+     font-weight: bold;
+     padding: 10px;
+     text-align: left;
+     border-bottom: 1px solid #ccc;
+   }
+
+   tr:nth-child(even) {
+     background-color: #f9f9f9;
+   }
+
+   table {
+     border: 2px solid #ccc;
+   }
+
+   tr:hover {
+     background-color: #eaf6ff;
+   }
+
+   
