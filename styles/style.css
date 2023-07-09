@@ -25,3 +25,109 @@ th {
    }
 
    
+   /* ADDED STYLES */
+/* .body {
+  background-color: #800020 !important;
+  /* height: 100vh; */
+/* }
+.sidebar{
+  background-color: #800020 !important;
+}
+.box{
+  background-color: #a9a9a9 !important;
+  color: #800020 !important;
+}
+.info{
+  color: #800020 !important;
+  font-weight: 600;
+}
+.text-color{
+  color:#007bff;
+}
+.color{
+  color: #800020;
+}
+.style{
+  background-color: #bfbfbf !important;
+  color: #2a2829d1 !important;
+}
+.price{
+  color: orange;
+}
+.service-info{
+  line-height: 13px;
+  border-bottom: 2px solid grey;
+}
+.service-desc{
+  list-style:circle;
+  font-size: medium;
+  font-weight: 600;
+  padding: 10px;
+}
+.service-desc > li{
+  padding: 5px;
+}
+.order{
+  font-weight: lighter;
+  font-size: 18px;
+  color: #800020 !important;
+}
+.bottom{
+  border-bottom: 1px solid grey;
+}
+.order-name{
+  font-size: 20px;
+  font-weight:600;
+  color: white;
+}
+.order-price{
+  font-weight: 400;
+  font-size: 18px;
+}
+.bordered{
+  border: 1px solid grey;
+  border-radius: 10px;
+}
+.track-btn{
+  background-color: #84102d;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  box-shadow: 0px 8px 6px 0px rgba(0,0,0,0.2);
+  width: 300px;
+  height: 50px;
+  margin-top: -50px;
+  text-transform: uppercase;
+  transition: 1s;
+}
+.track-btn:hover{
+  box-shadow: 0px 8px 6px 0px rgba(0,0,0,0.8);
+  background-color: #800020;
+}
+.order-image{
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+}
+.btn-logout{
+  border: 1px solid white;
+  outline: none;
+  background-color: #800020;
+  color: white;
+}
+.btn-details{
+  color: #800020;
+  border: 1px solid #800020;
+  background-color: #a9a9a9;
+  border-radius: 3px;
+}
+.btn-details-admin{
+  color: white;
+  border: 1px solid white;
+  background-color: transparent;
+  border-radius: 3px;
+} */ 
