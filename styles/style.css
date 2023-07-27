@@ -56,7 +56,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: aqua;
+  background-color:gray;
   border-radius: 10px;
 }
 
@@ -357,7 +357,7 @@ line-height: 22px;
 }
 
 .footer-main-wrapper{
-background-color: blue;
+background-color: #184ACB;
 justify-content: space-between;
 }
  /* footerend===================== */
@@ -779,3 +779,65 @@ nav > ul > li > a:hover{
 .info-wrap{
   background-color:#184ACB
 }
+
+/* fAQ STYLES================= */
+.accordion-item {
+  background-color: black;
+  border-radius: 10px;
+}
+
+.faqimg {
+  width: 100%;
+  height: 100vh; 
+  padding: 20px 30px 20px 30px ;
+}
+/* Set height of body and the document to 100% to enable "full page tabs" */
+body, html {
+  height: 100%;
+  margin: 5%;
+  font-family: Arial;
+}
+
+/* Style tab links */
+.tablink {
+  color: black;
+  float:none;
+  border:#00E6F6;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;   
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color:black;
+  display: none;
+  padding: 50px 20px;
+  height: 50%;
+  
+}
+.accord {
+  height: 50vh;
+  width: 50vw;
+  background-color: #777;
+  border-width: 10%;
+  border-radius: 25px;
+  background-color: white;
+}
+.gig {
+  padding: 20px 50px 20px 50px;
+}
+.image-border2 {
+  border-radius:10%;
+  /* padding: 10px 30px 10px 30px; */
+  width: 100%;
+  height: 60vh; 
+}
+
+
