@@ -841,3 +841,25 @@ body, html {
 }
 
 
+
+/* Custom CSS to add borders and style accordion */
+/* .accordion-item {
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+} */
+/* .accordion-button {
+  border: none;
+  background-color: #f0f0f0;
+  width: 100%;
+  text-align: left;
+  padding: 10px 20px;
+} */
+/* .accordion-button:hover {
+  background-color: #e0e0e0;
+}
+.accordion-body {
+  border-top: 1px solid #ccc;
+  padding: 10px 20px;
+} */
+
+
