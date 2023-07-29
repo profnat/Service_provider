@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;200;300;400;500&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <title>FAQs</title>
+</head>
+
+<body>
+  <div>
+    <img src="images/logo building.jpg" class="faqimg" alt="">
+  </div>
+
+  <!-- accordion=================================================================== -->
+  <div class="container px-4">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="accordion" id="accordionOne">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button text-white bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+               <strong>Basic</strong> 
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionOne">
+              <div class="accordion-body">
+                <h4 class="text-left">US$100</h4>
+                <p class="text-left">Lorem, ipsum dolor</p>
+                <p class="text-left">Lorem, ipsum dolor</p>
+                <p class="text-left">Lorem, ipsum dolor</p>
+                <p class="text-left">Lorem, ipsum dolor</p>
+                <p class="text-left">Lorem, ipsum dolor</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="accordion" id="accordionTwo">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed text-white bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+               <strong>Standerd</strong> 
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionTwo">
+              <div class="accordion-body">
+                <h4 class="text-left">US$100</h4>
+                <p class="text-left">Lorem, ipsum dolor</p>
+                <p class="text-left">Lorem, ipsum dolor</p>
+                <p class="text-left">Lorem, ipsum dolor</p>
+                <p class="text-left">Lorem, ipsum dolor</p>
+                <p class="text-left">Lorem, ipsum dolor</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="accordion" id="accordionThree">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed text-white bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+               <strong>Premium</strong> 
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionThree">
+              <div class="accordion-body">
+                <h4 class="text-left">US$100</h4>
+                <p class="text-left">Lorem, ipsum dolor</p>
+                <p class="text-left">Lorem, ipsum dolor</p>
+                <p class="text-left">Lorem, ipsum dolor</p>
+                <p class="text-left">Lorem, ipsum dolor</p>
+                <p class="text-left">Lorem, ipsum dolor</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+    <!-- <button class="tablink" onclick="openPage('News', this, '')">Basic</button>
+  <button class="tablink" onclick="openPage('News', this, '')" id="defaultOpen">Standard</button>
+  <button class="tablink" onclick="openPage('Contact', this, '')">Premium</button>
+  
+  <div id="News" class="tabcontent">
+    <h3>Basic</h3>
+    <ul>
+      <li>Lorem ipsum dolor</li>
+      <li>Lorem ipsum dolor</li>
+      <li>Lorem ipsum dolor</li>
+      <li>Lorem ipsum dolor</li>
+      <li>Lorem ipsum dolor</li>
+    </ul>
+  </div>
+  <div id="News" class="tabcontent">
+    <h3>Standard</h3>
+    <ul>
+      <li>Lorem ipsum dolor</li>
+      <li>Lorem ipsum dolor</li>
+      <li>Lorem ipsum dolor</li>
+      <li>Lorem ipsum dolor</li>
+      <li>Lorem ipsum dolor</li>
+    </ul>
+  </div>
+
+  <div id="Contact" class="tabcontent">
+    <h3>Premium</h3>
+    <ul>
+      <li>Lorem ipsum dolor</li>
+      <li>Lorem ipsum dolor</li>
+      <li>Lorem ipsum dolor</li>
+      <li>Lorem ipsum dolor</li>
+      <li>Lorem ipsum dolor</li>
+    </ul>
+  </div> -->
+  <div class="row mt-3 mb-3">
+    <div class="col-lg-8">
+      <h3>About gig</h3>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt tempora enim quia laudantium ipsam officiis quos laborum suscipit doloribus nostrum modi delectus inventore, optio facere. Dicta, facere optio. In, tempora?
+      Lorem, ipsum dolor sit amet </p>
+    </div>
+  </div>
+  <div class="row">
+    <h3>Previous Project</h3>
+    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+        <img src="images/computer.jpeg" class="image-border2" alt="...">
+        <p>Lorem ipsum dolor</p>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+        <img src="images/ARts-logo.jpg" class="image-border2" alt="...">
+        <p>Lorem ipsum dolor</p>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+        <img src="images/building.jpg" class="image-border2" alt="...">
+        <p>Lorem ipsum dolor</p>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+        <img src="images/ADVANZTEK LOGO.jpg" class="image-border2" alt="...">
+        <p>Lorem ipsum dolor</p>
+    </div>
+    <div class="col">
+        <div class="justify-content-center">
+            <div class="lorem">
+                <h2 class="mr-5"><strong> About</strong></h2>
+                <div class="liner"></div>
+                <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione veniam officia
+                    consequatur fugit sint amet molestiae voluptatem incidunt veritatis? Magni velit officia
+                    ducimus? Asperiores saepe molestias sint voluptatum ipsum aliquam!</p>
+            </div>
+        </div>
+    </div>
+</div>
+  
+  <div class=" text-dark pb-5 ">
+    <h1 class="text-center pt-5">Logo FAQs</h1>
+    <div class="container mt-3 ">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item mb-2 mt-3">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button bg-dark text-white button rounded btn-outline-white" " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                  aria-expanded="true" aria-controls="collapseOne">
+                  what is logo design?
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body bg-dark text-white text-left">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur amet possimus doloribus sed esse quas alias dicta ipsam rerum, velit assumenda. Impedit consequatur modi iste eos ut dignissimos enim consectetur?.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item mt-2">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed bg-dark text-white button rounded btn-outline-white" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  What you get in basic order?
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body bg-dark text-white text-left">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae nesciunt vero, doloremque cumque molestias, minima quisquam quos a possimus magni est vitae incidunt exercitationem dolores sequi deleniti! Adipisci, eligendi fugiat.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item mt-2">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed bg-dark text-white button rounded btn-outline-white" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                 What you get in HQ concept?
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body bg-dark text-white text-left">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, aliquam nostrum ipsum ratione quidem, ut aspernatur commodi, architecto officia dicta cupiditate quisquam recusandae amet eveniet quo dolorum debitis doloribus sed.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item mt-2">
+              <h2 class="accordion-header" id="headingFour">
+                <button class="accordion-button collapsed bg-dark text-white button rounded btn-outline-white" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  What makes logo design so important?
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body bg-dark text-white text-left">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id sunt, eligendi ut impedit ipsam nobis quod quae quo accusantium minus quis laborum, laudantium fugiat dignissimos perferendis reprehenderit quaerat quibusdam. Dolorem.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item mt-2 mb-3">
+              <h2 class="accordion-header" id="headingFive">
+                <button class="accordion-button collapsed bg-dark text-white button rounded btn-outline-white" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                  what makes logo design important?
+                </button>
+              </h2>
+              <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body bg-dark text-white text-left">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae odit enim aspernatur perferendis debitis hic? Ipsam sed obcaecati laudantium, iusto sit harum soluta totam quibusdam cupiditate repudiandae quidem, odio placeat.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class=" py-3">
+    <p class="fw-bold color text-uppercase text-center mt-5">Testimonials</p>
+    <h1 class="color text-capitalize text-center">What people say about us</h1>
+    <div class="container mt-3">
+         <div class="row justify-content-center">
+              <div class="col-md-4">
+                   <div class="card mb-4 py-5 px-3 bg-white">
+                        <div class="py-3">                         
+                             <p class="m-0 text-warning">
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star checked"></span>
+                              </p>
+                        </div>
+                        <p class="text-secondary">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit labore excepturi odit dolores nam magni velit eveniet? Accusamus facilis eveniet deleniti odio eos! At cum magni earum recusandae possimus.</p>
+                        <div class="d-flex gap-3">
+                             <img class="profile" src="images/profile-1.jpg" alt="">
+                             <div class="height">
+                                  <h5>Fechukwu orji</h5>
+                                  <span>CEO orji ventures</span>
+                             </div>
+                        </div>
+                   </div>
+              </div>
+              <div class="col-md-4">
+                   <div class="card mb-4 py-5 px-3 bg-white">
+                        <div class="py-3">                         
+                             <p class="m-0 text-warning">
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star checked"></span>
+                              </p>
+                        </div>
+                        <p class="text-secondary">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit labore excepturi odit dolores nam magni velit eveniet? Accusamus facilis eveniet deleniti odio eos! At cum magni earum recusandae possimus.</p>
+                        <div class="d-flex gap-3">
+                             <img class="profile" src="images/profile-1.jpg" alt="">
+                             <div class="height">
+                                  <h5>Fechukwu orji</h5>
+                                  <span>CEO orji ventures</span>
+                             </div>
+                        </div>
+                   </div>
+              </div>
+              <div class="col-md-4">
+                   <div class="card mb-4 py-5 px-3 bg-white">
+                        <div class="py-3">                         
+                             <p class="m-0 text-warning">
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star checked"></span>
+                              </p>
+                        </div>
+                        <p class="text-secondary">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit labore excepturi odit dolores nam magni velit eveniet? Accusamus facilis eveniet deleniti odio eos! At cum magni earum recusandae possimus.</p>
+                        <div class="d-flex gap-3">
+                             <img class="profile" src="images/profile-2.jpg" alt="">
+                             <div class="height">
+                                  <h5>Fechukwu orji</h5>
+                                  <span>CEO orji ventures</span>
+                             </div>
+                        </div>
+                   </div>
+              </div>
+         </div>
+    </div>
+</div>
+<div>
+  <div class="container py-3 bg-white">
+      <h2 class=" text-center"> Services Related to Graphic Disign</h2>
+      <div class="text-center">
+          <div class="">
+              <div class="card " style="border-color: white;">
+                  <div class="p-4">
+                      <li class="d-block">
+                          <a class="" href="">
+                              <button class="btn btns mt-3 rounded-pill">Lorem Kpa Ngee</button>
+                          </a>
+                          <a href="">
+                              <button class="btn btns mt-3 rounded-pill">Lorem Kpa Ngee</button>
+                          </a>
+                          <a href="">
+                              <button class="btn btns mt-3 rounded-pill">Lorem Kpa Ngee</button>
+                          </a>
+                          <a href="">
+                              <button class="btn btns mt-3 rounded-pill">Lorem Kpa Ngee</button>
+                          </a>
+                          <a href="">
+                              <button class="btn btns mt-3 rounded-pill">Lorem Kpa Ngee</button>
+                          </a>
+                          <a href="">
+                              <button class="btn btns mt-3 rounded-pill">Lorem Kpa Ngee</button>
+                          </a>
+                          <a href="">
+                              <button class="btn btns mt-3 rounded-pill">Lorem Kpa Ngee</button>
+                          </a>
+                          <a href="">
+                              <button class="btn btns mt-3 rounded-pill">Lorem Kpa Ngee</button>
+                          </a>
+                          <a href="">
+                              <button class="btn btns mt-3 rounded-pill">Lorem Kpa Ngee</button>
+                          </a>
+                          <a href="">
+                              <button class="btn btns mt-3 rounded-pill">Lorem Kpa Ngee</button>
+                          </a>
+                      </li>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+  
+  <!-- Link Bootstrap JS (required for the accordion functionality) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js">
+  </script>
+  <script>
+    function openPage(pageName, elmnt, color) {
+      // Hide all elements with class="tabcontent" by default */
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+
+      // Remove the background color of all tablinks/buttons
+      tablinks = document.getElementsByClassName("tablink");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].style.backgroundColor = "";
+      }
+
+      // Show the specific tab content
+      document.getElementById(pageName).style.display = "block";
+
+      // Add the specific color to the button used to open the tab content
+      elmnt.style.backgroundColor = color;
+    }
+
+    // Get the element with id="defaultOpen" and click on it
+    document.getElementById("defaultOpen").click();
+  </script>
+
+</body>
+
+</html>

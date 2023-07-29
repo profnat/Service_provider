@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="styles/bootstrap.min.css">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+     <link rel="stylesheet" href="styles/style.css">
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+          integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;200;300;400;500&display=swap"
+          rel="stylesheet">
+     <title>ADMIN_DASHBOARD</title>
+</head>
+
+<body>
+     <div class="header bottom-2">
+          <div class="row m-0 px-3 py-3 ">
+               <div class="col-lg-4 mt-3">
+                    <p><strong><span class="spn">SP</span>WEB <span class="spn-2">SITE</span></strong></p>
+
+               </div>
+               <div class="col-lg-6">
+                    <div class="d-flex float-end"  >
+                         <ul class="list-unstyled d-flex mt-3">
+                              <li class="px-3 fw-bold">
+                                   <a href="" class="text-decoration-none" style="color: aqua;"> Website</a>
+                              </li>
+                              <li class="px-3 fw-bold">
+                                   <a href="" class="text-decoration-none blue" style="color: aqua;">App</a>
+                              </li>
+                              <li class="px-3 fw-bold">
+                                   <a href="" class="text-decoration-none blue" style="color: aqua;">Twitter</a>
+                              </li>
+                         </ul>
+                    </div>
+               </div>
+               <div class="box-3 ">
+                    <i class="fas fa-search"></i>
+                    <input type="search" placeholder="Search..." >
+               </div>
+          </div>
+     </div>
+     <div class="">
+          <div class="menu px-3">
+               <i class="fas fa-bars fa-2x mt-3"></i>
+          </div>
+     </div>
+     <div class="sidebar">
+          <div class="close px-4 py-4">
+               <i class="fas fa-times-circle"></i>
+          </div>
+          <div class="scrollbox">
+               <div class="scrollbox-inner ">
+                    <ul>
+
+                         <li class="">
+                              <a href="" class=" px-3 py-3 homepage"><i class="fa fa-house-user"></i>Home Page</a>
+                         </li>
+                         <li>
+                              <div class="dropdown accordion-flush ">
+                                   <a onclick="myFunction()" class="dropbtn"><i class="fa fa-chalkboard-teacher mr-2"></i>Admin</a>
+                                   <div id="myDropdown" class="dropdown-content ">
+                                        <a href="">Types of Admins</a>
+                                     <a href="#home"><i class="fa fa-circle-notch"></i>Super Admin</a>
+                                     <a href="#about"><i class="fa fa-circle-notch"></i>Supervisor</a>
+                                     <a href="#about"><i class="fa fa-circle-notch"></i>Developer</a>
+                                   </div>
+                              </div>
+                         </li>
+                         <li>
+                              <div class="dropdown accordion-flush mt-3 ">
+                                   <a onclick="myFunction()" class="dropbtn"><i class="fa fa-users mr-2"></i>Customers</a>
+                                   <div id="myDropdown" class="dropdown-content ">
+                                     <a href="#home"><i class="fa fa-circle-notch"></i> Home</a>
+                                     <a href="#about"><i class="fa fa-circle-notch"></i>About</a>
+                                   </div>
+                              </div>
+                         </li>
+                         <li>
+                              <div class="dropdown accordion-flush mt-3 ">
+                                   <a onclick="myFunction()" class="dropbtn"><i class="fa fa-shopping-cart mr-2"></i>Order </a>
+                                   <div id="myDropdown" class="dropdown-content ">
+                                     <a href="#home"><i class="fa fa-circle-notch"></i> Home</a>
+                                     <a href="#about"><i class="fa fa-circle-notch"></i>About</a>
+                                   </div>
+                              </div>
+                         </li>
+                         <li>
+                              <div class="dropdown accordion-flush mt-3 ">
+                                   <a onclick="myFunction()" class="dropbtn"><i class="fa fa-money-check mr-2"></i>Payment </a>
+                                   <div id="myDropdown" class="dropdown-content ">
+                                     <a href="#home"><i class="fa fa-circle-notch"></i> Home</a>
+                                     <a href="#about"><i class="fa fa-circle-notch"></i>About</a>
+                                   </div>
+                              </div>
+                         </li>
+                         <li>
+                              <div class="dropdown accordion-flush mt-3 ">
+                                   <a onclick="myFunction()" class="dropbtn"><i class="fa fa-question mr-2"></i>FAQ </a>
+                                   <div id="myDropdown" class="dropdown-content ">
+                                     <a href="#home"><i class="fa fa-circle-notch"></i> Home</a>
+                                     <a href="#about"><i class="fa fa-circle-notch"></i>About</a>
+                                   </div>
+                              </div>
+                         </li>
+                         <li>
+                              <div class="dropdown accordion-flush mt-3 ">
+                                   <a onclick="myFunction()" class="dropbtn"><i class="fa fa-scroll mr-0"></i>
+                                        Consultation </a>
+                                   <div id="myDropdown" class="dropdown-content">
+                                     <a href="#home"><i class="fa fa-circle-notch"></i> Home</a>
+                                     <a href="#about"><i class="fa fa-circle-notch"></i>About</a>
+                                   </div>
+                              </div>
+                         </li>
+                         <li>
+                              <div class="dropdown accordion-flush mt-3 ">
+                                   <a onclick="myFunction()" class="dropbtn"><i class="fa fa-user-circle mr-2"></i>
+                                        Support </a>
+                                   <div id="myDropdown" class="dropdown-content ">
+                                     <a href="#home"><i class="fa fa-circle-notch"></i> Home</a>
+                                     <a href="#about"><i class="fa fa-circle-notch"></i>About</a>
+                                   </div>
+                              </div>
+                         </li>
+                         <li>
+                              <div class="dropdown accordion-flush mt-3 ">
+                                   <a onclick="myFunction()" class="dropbtn"><i class="fa fa-blog mr-2"></i>
+                                        Blog
+                                   <div id="myDropdown" class="dropdown-content ">
+                                     <a href="#home"><i class="fa fa-circle-notch"></i> Home</a>
+                                     <a href="#about"><i class="fa fa-circle-notch"></i>About</a>
+                                   </div>
+                              </div>
+                         </li>
+                         <li>
+                              <div class="dropdown accordion-flush mt-3 ">
+                                   <a onclick="myFunction()" class="dropbtn"><i class="fa fa-search-location mr-2"></i>
+                                        service </a>
+                                   <div id="myDropdown" class="dropdown-content ">
+                                     <a href="#home"><i class="fa fa-circle-notch"></i> Home</a>
+                                     <a href="#about"><i class="fa fa-circle-notch"></i>About</a>
+                                   </div>
+                              </div>
+                         </li>
+                         <li>
+                              <div class="dropdown accordion-flush mt-3 ">
+                                   <a onclick="myFunction()" class="dropbtn"><i class="fa fa-screwdriver mr-2"></i>
+                                        Settings </a>
+                                   <div id="myDropdown" class="dropdown-content ">
+                                     <a href="#home"><i class="fa fa-circle-notch"></i> Home</a>
+                                     <a href="#about"><i class="fa fa-circle-notch"></i>About</a>
+                                   </div>
+                              </div>
+                         </li>
+                         <li>
+                              <div class="dropdown accordion-flush mt-3 ">
+                                   <a onclick="myFunction()" class="dropbtn"><i class="fa fa-clone mr-0"></i>
+                                        Coupon Code </a>
+                                   <div id="myDropdown" class="dropdown-content ">
+                                     <a href="#home"><i class="fa fa-circle-notch"></i> Home</a>
+                                     <a href="#about"><i class="fa fa-circle-notch"></i>About</a>
+                                   </div>
+                              </div>
+                         </li>
+                         <li>
+                              <div class="dropdown accordion-flush mt-3 ">
+                                   <a onclick="myFunction()" class="dropbtn"><i class="fa fa-chart-area mr-2"></i>
+                                        Chart </a>
+                                   <div id="myDropdown" class="dropdown-content ">
+                                     <a href="#home"><i class="fa fa-circle-notch"></i> Home</a>
+                                     <a href="#about"><i class="fa fa-circle-notch"></i>About</a>
+                                   </div>
+                              </div>
+                         </li>
+                    </ul> 
+               </div>
+          </div>
+     </div>
+     <div class="content-wrapper">
+          <div>
+               <h3 class="pt-5 text-black"><strong> About The Project</strong></h3>
+                    <div class="card">
+                         <div class="card-body image-bg">
+                              <div class="row">
+                                   <div class="col">
+                                        <div class="">
+                                             <img class="imgg" src="images/man.webp" alt="...">
+                                        </div>
+                                   </div>
+                                   <div class="col mt-5 mr-5">
+                                        <div class="row">
+                                             <div class="col">
+                                                  <h2 class="service mt-2">Service Provider Website</h2>
+                                                  <p class="herotext text-center">The semantic web service providers primarily
+                                                       consist of vendors that provide
+                                                       one or more web services that might be integrated into a KM
+                                                       application. These services may
+                                                       support specific functionalities with well-defined
+                                                       interfaces and extensive documentation as to
+                                                       how to use them in a particular application. The success of
+                                                       web service providers greatly
+                                                       depends on describing and advertising their services
+                                                       correctly and efficiently.
+                                                  </p>
+                                                  <p><hr class="new text-center"></p>
+                                                  <button class="btn btn-outline-primary text-center ReadMore"
+                                                       type="login">Read More &RightArrow;</button>
+                                             </div>
+
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+               </div> -->
+               <!--------- correct option-------- -->
+               <div class="container text-white text-center p-2">
+                    <div class="row">
+                         <div class="col-lg-4">
+                              <div class="card">
+                                   <div class="card-body">
+                                        <h2 class="card px-3 py-3">Web Developmentt</h2>
+                                        <p>
+                                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur voluptates tenetur saepe voluptatibus quis, perferendis magnam dicta aliquid laborum expedita nostrum quos asperiores est officia natus nulla quia soluta ullam?
+                                        </p>
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="col-lg-4">
+                              <div class="card">
+                                   <div class="card-body">
+                                        <h1 class="card px-3 py-3">Block Chain</h1>
+                                        <p>
+                                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur voluptates tenetur saepe voluptatibus quis, perferendis magnam dicta aliquid laborum expedita nostrum quos asperiores est officia natus nulla quia soluta ullam?
+                                        </p>
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="col-lg-4">
+                              <div class="card">
+                                   <div class="card-body h-50">
+                                        <h2 class="card px-3 py-3">Website Maintenance</h2>
+                                        <p>
+                                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur voluptates tenetur saepe voluptatibus quis, perferendis magnam dicta aliquid laborum expedita nostrum quos asperiores est officia natus nulla quia soluta ullam?                                        </p>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+               <div class="container text-white text-center p-2">
+                    <div class="row">
+                         <div class="col-lg-4">
+                              <div class="card">
+                                   <div class="card-body">
+                                        <h2 class="card px-3 py-3">Web Hosting</h2>
+                                        <p>
+                                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur voluptates tenetur saepe voluptatibus quis, perferendis magnam dicta aliquid laborum expedita nostrum quos asperiores est officia natus nulla quia soluta ullam?
+                                        </p>
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="col-lg-4">
+                              <div class="card">
+                                   <div class="card-body">
+                                        <h2 class="card px-3 py-3">Graphics Design</h2>
+                                        <p>
+                                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur voluptates tenetur saepe voluptatibus quis, perferendis magnam dicta aliquid laborum expedita nostrum quos asperiores est officia natus nulla quia soluta ullam?
+                                        </p>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+               <div class="container text-white text-center p-2">
+                    <div class="row">
+                         <div class="col-lg-4">
+                              <div class="card">
+                                   <div class="card-body">
+                                        <h2 class="card px-3 py-3">Prof Naths</h2>
+                                        <p>
+                                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur voluptates tenetur saepe voluptatibus quis, perferendis magnam dicta aliquid laborum expedita nostrum quos asperiores est officia natus nulla quia soluta ullam?
+                                        </p>
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="col-lg-4">
+                              <div class="card">
+                                   <div class="card-body">
+                                        <h2 class="card px-3 py-3">Senator Peter</h2>
+                                        <p>
+                                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur voluptates tenetur saepe voluptatibus quis, perferendis magnam dicta aliquid laborum expedita nostrum quos asperiores est officia natus nulla quia soluta ullam?
+                                        </p>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </div>
+
+     </div>
+
+
+     <script>
+          function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+          }
+          
+
+          window.onclick = function(event) {
+            if (!event.target.matches('.dropbtn')) {
+              var dropdowns = document.getElementsByClassName("dropdown-content");
+              var i;
+              for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                  openDropdown.classList.remove('show');
+                }
+              }
+            }
+          }
+          </script>
+
+
+
+     <script>
+          const menu = document.querySelector('.menu');
+          const close = document.querySelector('.close');
+          const sidebar = document.querySelector('.sidebar');
+
+          menu.addEventListener('click', () => {
+               sidebar.classList.add('open-sidebar')
+          })
+
+          close.addEventListener('click', () => {
+               sidebar.classList.remove('open-sidebar')
+          })
+     </script>
+</body>
+
+</html>
